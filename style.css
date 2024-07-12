@@ -1,0 +1,150 @@
+/*<!-----CODE-BY-ALVINJOBY----->
+    <!----follow-me-on-github:(ID) AlvinJoby------->*/
+body{
+    background-color: #3D3B8E;
+    display: grid;
+}
+header{
+    padding-top: 0;
+    width: 100%;
+    text-align: center;
+}
+header h1{
+    color: white;
+    font-family:"ABeeZee", sans-serif;
+}
+/*<!-----CODE-BY-ALVINJOBY----->
+    <!----follow-me-on-github:(ID) AlvinJoby------->*/
+main{
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.mainDiv{
+    background-color: aliceblue;
+    border: 5px aliceblue solid;
+    box-shadow: 0 0 37px rgba(144, 146, 146, 0.595);
+    border-radius: 30px;
+    width:40%;
+    height: 100%;
+    transition-duration: 0.4s;
+}
+/*<!-----CODE-BY-ALVINJOBY----->
+    <!----follow-me-on-github:(ID) AlvinJoby------->*/
+.mainDiv:active,
+.mainDiv:hover{
+    box-shadow: 0 0 37px rgba(210, 213, 213, 0.655);
+    transform: scale(1.01) translateY(10px);
+}
+@media (max-width: 700px) {
+    .mainDiv{
+        width:90%;
+    }
+}
+.inputDiv{
+    margin-top: 8%;
+}
+/*<!-----CODE-BY-ALVINJOBY----->
+    <!----follow-me-on-github:(ID) AlvinJoby------->*/
+#mainDivInput{
+    text-align: center;
+    border: none;
+    background-color: aliceblue;
+    border-bottom: 3px solid black;
+    outline: none;
+    padding: 5px 0;
+    width: 50%;
+    font-size: 2.5em;
+}
+#temperatureunit{
+    border: none;
+    outline: none;
+    background-color: aliceblue;
+    margin-left: 3%;
+    width: 30%;
+    height: 1.5em;
+    font-size: 1.45em;
+}
+/*<!-----CODE-BY-ALVINJOBY----->
+    <!----follow-me-on-github:(ID) AlvinJoby------->*/
+#mainDivInput::placeholder{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.selectorDiv{
+    margin-top: 12%;
+}
+.selectorDiv h1{
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 24.5px;
+    letter-spacing: 2px;
+}
+/*<!-----CODE-BY-ALVINJOBY----->
+    <!----follow-me-on-github:(ID) AlvinJoby------->*/
+#selectortemperatureunit{
+    margin-top: 7.5%;
+    background-color: aliceblue;
+    margin-left: 3%;
+    width: 80%;
+    height: 1.5em;
+    font-size: 1.45em;
+    text-align: center;
+    border: 1px #3D3B8E solid;
+    background-color: #3D3B8E;
+    color: aliceblue;
+    border-radius: 50px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    transition-duration: 0.5s;
+}
+/*<!-----CODE-BY-ALVINJOBY----->
+    <!----follow-me-on-github:(ID) AlvinJoby------->*/
+#selectortemperatureunit:hover,
+#selectortemperatureunit:active{
+    color: #3D3B8E;
+    background-color: aliceblue;
+}
+#underline{
+    display: flex;
+    margin-top: 10%;
+    text-align: center;
+}
+#underline{
+    width: 30%;
+    border: 1px solid rgb(92, 92, 92);
+    border-radius: 1000px;
+}
+/*<!-----CODE-BY-ALVINJOBY----->
+    <!----follow-me-on-github:(ID) AlvinJoby------->*/
+@media (max-width: 700px) {
+    .selectorDiv{
+        margin-top: 15%;
+    }
+    #selectortemperatureunit{
+        margin-top: 10.5%;
+    }
+    #underline{
+        margin-top: 15%;
+    }
+}
+/*<!-----CODE-BY-ALVINJOBY----->
+    <!----follow-me-on-github:(ID) AlvinJoby------->*/
+#result{
+    margin-top: 15%;
+    font-size: 60px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+}
+#reminderResult{
+    margin-top: 15%;
+    color: rgb(155, 4, 4);
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;
+}
+/*<!-----CODE-BY-ALVINJOBY----->
+    <!----follow-me-on-github:(ID) AlvinJoby------->*/
